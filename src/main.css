@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities{
+    .btn{
+        @apply bg-primary px-8 py-3 rounded-[5px] text-white text-[21px] 
+    }
+    
+  
+}
+
+
+p{
+    @apply text-[18px] leading-normal tracking-wider xl:text-[21px]
+}
+h2{
+    @apply font-semibold text-black leading-normal text-[45px] sm:text-[45px] lg:text-[50px] xl:text-[60px] 2xl:text-[65px]
+}
+
+
