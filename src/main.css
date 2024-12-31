@@ -12,11 +12,15 @@
 }
 
 
-p{
-    @apply text-[18px] leading-normal tracking-wider xl:text-[21px]
+
+@layer components{
+    h2{
+        @apply font-semibold text-black leading-normal text-[45px] sm:text-[45px] lg:text-[50px] xl:text-[60px] 
+    }
+    p{
+        @apply text-[18px] leading-normal tracking-wider xl:text-[21px]
+    }
 }
-h2{
-    @apply font-semibold text-black leading-normal text-[45px] sm:text-[45px] lg:text-[50px] xl:text-[60px] 2xl:text-[65px]
-}
+
 
 
